@@ -30,10 +30,10 @@
 
 # configuration through environment variables
 Twitter:
-  access_token: '1124700474-6FX1flE6GwDWAc50tfFRjogsvv7A18SpE56zG1c'
-  access_token_secret: 'Cm0KY7GtCOLHuJDgBUqsChBCwZypZ7AbqtRCYRzJTrPHN'
-  consumer_key: 'ZUK2Lt4m3FMcjy8Ypj1n65flu'
-  consumer_secret: '23NXLR8hLtMazfaKRkwEGHNVfOYg4RQAkd17PUD5VrlqjVc3bg'
+  access_token: ${'1124700474-6FX1flE6GwDWAc50tfFRjogsvv7A18SpE56zG1c'}
+  access_token_secret: ${'Cm0KY7GtCOLHuJDgBUqsChBCwZypZ7AbqtRCYRzJTrPHN'}
+  consumer_key: ${'ZUK2Lt4m3FMcjy8Ypj1n65flu'}
+  consumer_secret: ${'23NXLR8hLtMazfaKRkwEGHNVfOYg4RQAkd17PUD5VrlqjVc3bg'}
 
 Discord:
   - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER!b}
@@ -45,12 +45,12 @@ Discord:
     custom_message: 'Bai ce pula mea'
 #     keyword_sets: ${KEYWORDS!ll}
 #     blackword_sets: ${BLACKWORDS!ll}
-    twitter_ids: ['1247222709655724037','1124700474']
+    twitter_ids: $['1247222709655724037','1124700474']
     twitter_handles: ${TWITTER_HANDLE!l}
     twitter_lists: ${TWITTER_LIST!l}
 #     track: ${TRACK!l}
 #     location: ${LOCATION!fl}
-    webhook_urls: ['https://discord.com/api/webhooks/887989525874348032/CFpEYQ6V_rMCFXpg-omrSbU4Y4VDQ5FX8gtKbjxb8_vUb9dqd-GMWay1bMb1jhmhXmXy']
+    webhook_urls: $['https://discord.com/api/webhooks/887989525874348032/CFpEYQ6V_rMCFXpg-omrSbU4Y4VDQ5FX8gtKbjxb8_vUb9dqd-GMWay1bMb1jhmhXmXy']
 
 #   - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_2!b}
 #     IncludeRetweet: ${INCLUDE_RETWEET_2!b}
